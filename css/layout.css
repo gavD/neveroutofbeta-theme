@@ -1,0 +1,166 @@
+body {
+        background: #B9B9B9;
+    }
+#container {
+    width: 100%;
+}
+#main {
+    margin: 0px auto;
+    margin-top: 48px;
+    width: 800px;
+    height: 530px;
+    position: relative;
+    background: url('../images/bg-home.jpg');
+}
+.pagename-press #main {
+    background: url('../images/bg-press.jpg');
+}
+.pagename-investment #main {
+    background: url('../images/bg-investment.jpg');
+}
+.pagename-team #main {
+    background: url('../images/bg-team.jpg');
+}
+.pagename-safeceps-tm #main {
+    background: url('../images/bg-safe.jpg');
+}
+.pagename-contact #main {
+    background: url('../images/bg-contact.jpg');
+}
+.pagename-journey #main {
+    background: url('../../../gallery/journey/journey.jpg')
+}
+.pagename-safeceps-tm #main h1 {
+    background: #9e5d97;
+}
+.pagename-safeceps-tm .menu {
+   background-color: rgba(158, 93, 151, 0.8);
+}
+
+a {
+    color: #000;
+}
+
+footer {
+    margin: 20px auto 8px;
+    color: #FFF;
+    width: 800px;
+    text-align: right;
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+img#title {
+    position: absolute;
+    left: 18px;
+    top:80px;
+}
+.menu {
+    text-transform: uppercase;
+    padding-top: 2px;
+    font-size: 11px;
+    background: #327ea4;
+    position: absolute;
+    left: 18px;
+    top: 425px;
+    height: 17px;
+    width: 764px;
+    color: #FFF;
+
+    background-color:rgba(73, 132, 164, 0.8);
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu li {
+    display: inline;
+    padding-right: 20px;
+    text-align: center;
+}
+.menu a {
+    color: inherit;
+    text-decoration: none;
+}
+.menu a:hover {
+    -moz-box-shadow: 1px 1px 1px #666;
+    -webkit-box-shadow: 1px 1px 1px #666;
+    box-shadow: 1px 1px 1px #666;
+
+}
+
+#gallery-content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 782px;
+    height: 101px;
+    background-color:rgba(0,0,0,0.3);
+    padding-left: 18px;
+    padding-top: 4px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#content {
+    display: none;
+    top: 237px;
+    height: 151px;
+    padding-top: 27px;
+    overflow-y: auto;
+    background: #FFF;
+    background-color:rgba(255,255,255,0.5);
+}
+#content, .ngg-galleryoverview, #journeyMenu {
+    position: absolute;
+    left: 18px;
+    width: 764px;
+}
+.ngg-galleryoverview, #journeyMenu {
+    border: 0px;
+    margin: 0px;
+    top: 390px;
+    height: 24px;
+    margin-top: 0px !important;
+}
+.ngg-gallery-thumbnail a {
+    display: block;
+    float: left;
+    width: 10px;
+    height: 22px;
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    margin-top: 1px;
+}
+
+.selected {
+    height: 24px !important;
+    margin-top: 0px !important;
+    background-color: rgba(73, 132, 164, 0.8) !important;
+}
+
+.journey span {
+    display: none;
+}
+h1 {
+    display: inline;
+    background: #4984a4;
+    color: #fff;
+    padding: 3px;
+    padding-right: 5px;
+    padding-left: 26px;
+
+}
+.inner {
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 1px;
+    padding-bottom: 18px;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.inner p {
+    margin-bottom: 9px;
+ }
+
+.ngg-gallery-thumbnail img {
+    display: none !important;
+}

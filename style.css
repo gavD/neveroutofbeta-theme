@@ -1,0 +1,112 @@
+/*
+Theme Name: neveroutofbeta.com
+Theme URI: http://neveroutofbeta.com/
+Description: Custom theme for neveroutofbeta.com (based on Starkers)
+Version: 1.0
+Author: Gavin Davies
+Author URI: http://www.gavd.co.uk/
+Tags: promedicalinnovations
+*/
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+
+/* Reset over - Styles */
+
+body {
+    background: #000;
+    color: #fff;
+}
+a, a:visited {
+        color: grey;
+}
+
+body, *, div, p {
+    font-family: arial;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#container {
+    position: relative;
+}
+    #beta {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 250px;
+        font-size: 450px;
+        line-height: 450px;
+    }
+    #neveroutof {
+        color: grey;
+        font-size: 20px;
+        position:absolute;
+        left: 104px;
+        top: 102px;
+        line-height: 20px;
+    }
+        #neveroutof h1 {
+            font-weight: normal;
+        }
+        #neveroutof span {
+            display: none;
+        }
+
+    div.menu {
+        display: none;
+        position: absolute;
+        left: 300px;
+        top: 100px;
+    }
+    #content {
+        position: absolute;
+        left: 350px;
+        top: 185px;
+        line-height: 20px;
+        width: 500px;
+    }
+    #content p {
+        margin-top: 9px;
+
+    }
+    #content ul {
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+
+
+.downloadLink {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    .downloadLink  a {
+        background-image: url('images/arrow_down.png');
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        color: #0C0;
+    }
+
+h1 {
+    font-size: 1.1em;
+}
+h3 {
+    font-size: 1.1em;
+    margin-top: 14px;
+    margin-bottom: 4px;
+}
