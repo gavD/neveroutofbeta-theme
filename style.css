@@ -45,17 +45,25 @@ body, *, div, p {
     position: relative;
 }
     #beta {
-        position: absolute;
+        position: fixed;
         top: 0px;
         left: 0px;
         width: 250px;
         font-size: 450px;
         line-height: 450px;
     }
+    #rss {
+        position: fixed;
+        top: 0px;
+        left: 104px;
+        top: 262px;
+        line-height: 20px;
+        font-size: 20px;
+    }
     #neveroutof {
         color: grey;
         font-size: 20px;
-        position:absolute;
+        position:fixed;
         left: 104px;
         top: 102px;
         line-height: 20px;
@@ -76,7 +84,7 @@ body, *, div, p {
     #content {
         position: absolute;
         left: 350px;
-        top: 185px;
+        top: 175px;
         line-height: 20px;
         width: 500px;
     }
@@ -107,6 +115,7 @@ h1 {
 }
 h3 {
     font-size: 1.1em;
-    margin-top: 14px;
+    margin-top: 24px;
     margin-bottom: 4px;
 }
+

@@ -37,6 +37,7 @@
 	 */
 	wp_head();
 ?>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -48,6 +49,12 @@
         &#946;
         <div id="neveroutof">
             <h1>never<br/>out<br/>of<span>beta</span></h1>
+        </div>
+
+        <div id="rss">
+            <a href="<?php bloginfo('rss2_url'); ?>" title="<?php _e('Syndicate this site using RSS'); ?>">
+                <img src="/wp-content/themes/neveroutofbeta/images/feed-icon-28x28.png" width="28" height="28" alt="<?php _e('RSS'); ?>" />
+            </a>
         </div>
     </div>
       
