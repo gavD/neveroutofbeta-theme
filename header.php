@@ -53,7 +53,7 @@
 
         <div id="rss">
             <a href="<?php bloginfo('rss2_url'); ?>" title="<?php _e('Syndicate this site using RSS'); ?>">
-                <img src="/wp-content/themes/neveroutofbeta/images/feed-icon-28x28.png" width="28" height="28" alt="<?php _e('RSS'); ?>" />
+                <img src="<?php bloginfo('template_url'); ?>/images/feed-icon-28x28.png" width="28" height="28" alt="<?php _e('RSS'); ?>" />
             </a>
         </div>
     </div>
