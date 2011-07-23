@@ -18,6 +18,8 @@ get_header(); ?>
             // focus on search field after it has loaded
             document.getElementById('s') && document.getElementById('s').focus();
         </script>
+
+        <p><a href="/">Site home</a></p>
     </div>
 
 <?php get_footer(); ?>
