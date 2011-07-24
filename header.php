@@ -57,5 +57,10 @@
             </a>
         </div>
     </div>
+
+    <div id="widgets">
+        <?php dynamic_sidebar( 'primary-widget-area' ); ?>
+    </div>
+
       
     <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
