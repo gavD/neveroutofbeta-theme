@@ -81,6 +81,13 @@ body, *, div, p {
         font-size: 450px;
         line-height: 450px;
     }
+    #disclaimer {
+        position: fixed;
+        top: 470px;
+        width: 240px;
+        font-size: 10px;
+        left: 20px;
+    }
     #widgets {
         position: fixed;
         top: 20px;
@@ -186,6 +193,6 @@ h1,h2,h3 {
     font-weight: normal;
 }
 
-#twitter_time_line {
+#twitter_time_line, .faded {
     color: #999;
 }

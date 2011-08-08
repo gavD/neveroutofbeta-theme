@@ -58,6 +58,13 @@
         </div>
     </div>
 
+    <div id="disclaimer" class="faded">
+        Disclaimer: all opinions are representative of the individuals involved.
+        This is just something we’re doing for fun; it’s possible you may find it
+        informative but bear in mind any “facts” you hear may be unsubstantiated,
+        exaggerated or imagined, so always do the research!
+    </div>
+
     <div id="widgets">
         <?php dynamic_sidebar( 'primary-widget-area' ); ?>
     </div>
