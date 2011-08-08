@@ -110,7 +110,7 @@ body, *, div, p {
         #neveroutof h1 {
             font-family: arial;
             font-weight: normal;
-            color: #AAA;
+            color: #999;
             font-size: 20px;
         }
         #neveroutof span {
@@ -184,4 +184,8 @@ p.sideDate {
 h1,h2,h3 {
     font-family: DejaVuSansMonoBold, arial;
     font-weight: normal;
+}
+
+#twitter_time_line {
+    color: #999;
 }
