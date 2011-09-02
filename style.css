@@ -155,7 +155,7 @@ body, *, div, p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-    .downloadLink, a.source, .bookmarked-audio  a.source {
+    .downloadLink a, .bookmarked-audio a.source {
         background-image: url('images/arrow_down.png');
         background-repeat: no-repeat;
         padding-left: 20px;
