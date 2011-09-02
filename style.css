@@ -151,15 +151,11 @@ body, *, div, p {
 
 
 
-.downloadLink {
+.downloadLink, .bookmarked-audio {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-h1, h2, h3, a, a:visited {
-    color: #B29542
-}
-    .downloadLink  a {
+    .downloadLink, a.source, .bookmarked-audio  a.source {
         background-image: url('images/arrow_down.png');
         background-repeat: no-repeat;
         padding-left: 20px;
@@ -167,7 +163,11 @@ h1, h2, h3, a, a:visited {
     }
 
 
-    h1 {
+h1, h2, h3, a, a:visited {
+    color: #B29542
+}
+
+h1 {
     font-size: 1.5em;
 }
 h3 {
