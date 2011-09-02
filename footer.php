@@ -26,6 +26,12 @@
 
 <script type="text/javascript" src="/wp-content/themes/neveroutofbeta/noob/js/jquery-1.6.2.min.js"></script>
 <script type="text/javascript" src="/wp-content/themes/neveroutofbeta/noob/js/jquery.noob.js"></script>
-  
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.bookmarked-audio').each(function(index, value) {
+        $(this).noobPlayer();
+    });
+});
+</script>
 </body>
 </html>
