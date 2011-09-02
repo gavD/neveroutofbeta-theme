@@ -48,7 +48,7 @@
     <div id="beta">
         &#946;
         <div id="neveroutof">
-            <h1>never<br/>out<br/>of<span>beta</span></h1>
+            <h1><a href="/">never<br/>out<br/>of<span>beta</span></a></h1>
         </div>
 
         <div id="rss">

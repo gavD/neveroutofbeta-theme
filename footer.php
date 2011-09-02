@@ -24,6 +24,8 @@
     </div>
   </div> <!-- eo #container -->
 
+<script type="text/javascript" src="/wp-content/themes/neveroutofbeta/noob/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="/wp-content/themes/neveroutofbeta/noob/js/jquery.noob.js"></script>
   
 </body>
 </html>

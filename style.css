@@ -120,6 +120,9 @@ body, *, div, p {
             color: #999;
             font-size: 20px;
         }
+        #neveroutof h1 a {
+            text-decoration: none;
+        }
         #neveroutof span {
             display: none;
         }
@@ -196,3 +199,25 @@ h1,h2,h3 {
 #twitter_time_line, .faded {
     color: #999;
 }
+
+
+/*{{{ microformat styling */
+dt {
+    float: left;
+    margin-bottom: 1em;
+    padding-right: 5px;
+}
+dl, dt {
+}
+dt.current, dd.current {
+    background-color: blue;
+    color: white;
+}
+dd.current a {
+    color: #fff;
+}
+dd {
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+/*{{{*/
