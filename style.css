@@ -203,6 +203,7 @@ h1,h2,h3 {
 
 /*{{{ microformat styling */
 dt {
+    cursor: pointer;
     float: left;
     margin-bottom: 1em;
     padding-right: 5px;
